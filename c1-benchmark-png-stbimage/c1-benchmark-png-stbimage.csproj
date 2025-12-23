@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\c0-benchmark-result\c0-benchmark-result.csproj" />
+    <ProjectReference Include="..\c0-timing\c0-timing.csproj" />
+    <ProjectReference Include="..\c0-decompression-png.stbimage\c0-decompression-png.stbimage.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>c1_benchmark_png_stbimage</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+</Project>
